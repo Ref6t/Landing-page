@@ -278,6 +278,7 @@ span.buttom{
     width: 83%;
     height: fit-content;
     margin: 0 auto;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
