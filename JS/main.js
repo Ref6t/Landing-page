@@ -29,14 +29,7 @@ let List = document.querySelector("#list-icon ")
 let linksList =document.querySelector("#links-list")
 List.addEventListener("click",()=>{
 
-    if(linksList.style.top=="-100%"){
-        linksList.style.top="1%"
-        console.log(11);
-        
-    }else{
-        linksList.style.top="-100%"
-        console.log(1111);
-    }
+    linksList.classList.toggle("list-view")
 
 })
 
